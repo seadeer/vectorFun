@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22F70F81CFF8F0D007D55A8 /* BracketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F70F71CFF8F0D007D55A8 /* BracketView.swift */; };
 		C28D600D1CF7924800763D3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D600C1CF7924800763D3B /* AppDelegate.swift */; };
 		C28D600F1CF7924800763D3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D600E1CF7924800763D3B /* ViewController.swift */; };
 		C28D60121CF7924800763D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28D60101CF7924800763D3B /* Main.storyboard */; };
 		C28D60141CF7924800763D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28D60131CF7924800763D3B /* Assets.xcassets */; };
 		C28D60171CF7924800763D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28D60151CF7924800763D3B /* LaunchScreen.storyboard */; };
+		C28D601F1CF7926000763D3B /* draggyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D601E1CF7926000763D3B /* draggyCircle.swift */; };
+		C28D60211CF794E000763D3B /* axesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D60201CF794E000763D3B /* axesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C22F70F71CFF8F0D007D55A8 /* BracketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BracketView.swift; sourceTree = "<group>"; };
 		C28D60091CF7924800763D3B /* vectorFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vectorFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28D600C1CF7924800763D3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28D600E1CF7924800763D3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		C28D60131CF7924800763D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C28D60161CF7924800763D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C28D60181CF7924800763D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28D601E1CF7926000763D3B /* draggyCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = draggyCircle.swift; path = ../draggyCircle.swift; sourceTree = "<group>"; };
+		C28D60201CF794E000763D3B /* axesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = axesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		C28D600B1CF7924800763D3B /* vectorFun */ = {
 			isa = PBXGroup;
 			children = (
+				C28D601E1CF7926000763D3B /* draggyCircle.swift */,
 				C28D600C1CF7924800763D3B /* AppDelegate.swift */,
 				C28D600E1CF7924800763D3B /* ViewController.swift */,
 				C28D60101CF7924800763D3B /* Main.storyboard */,
+				C22F70F71CFF8F0D007D55A8 /* BracketView.swift */,
+				C28D60201CF794E000763D3B /* axesView.swift */,
 				C28D60131CF7924800763D3B /* Assets.xcassets */,
 				C28D60151CF7924800763D3B /* LaunchScreen.storyboard */,
 				C28D60181CF7924800763D3B /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22F70F81CFF8F0D007D55A8 /* BracketView.swift in Sources */,
+				C28D601F1CF7926000763D3B /* draggyCircle.swift in Sources */,
+				C28D60211CF794E000763D3B /* axesView.swift in Sources */,
 				C28D600F1CF7924800763D3B /* ViewController.swift in Sources */,
 				C28D600D1CF7924800763D3B /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +300,7 @@
 				C28D601D1CF7924800763D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
